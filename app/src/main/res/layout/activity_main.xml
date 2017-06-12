@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mykodetutorial.curlviewpagerui.ViewPagerCurl android:id="@+id/id_viewpager_curl" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.mykodetutorial.curlviewpagerui.HalamanCurlFrameLayout android:id="@+id/id_halaman_curl_1" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+            <include layout="@layout/layout_halaman_curl_1"/>
+        </com.mykodetutorial.curlviewpagerui.HalamanCurlFrameLayout>
+        <com.mykodetutorial.curlviewpagerui.HalamanCurlFrameLayout android:id="@+id/id_halaman_curl_2" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+            <include layout="@layout/layout_halaman_curl_2"/>
+        </com.mykodetutorial.curlviewpagerui.HalamanCurlFrameLayout>
+        <com.mykodetutorial.curlviewpagerui.HalamanCurlFrameLayout android:id="@+id/id_halaman_curl_3" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+            <include layout="@layout/layout_halaman_curl_3"/>
+        </com.mykodetutorial.curlviewpagerui.HalamanCurlFrameLayout>
+        <com.mykodetutorial.curlviewpagerui.HalamanCurlFrameLayout android:id="@+id/id_halaman_curl_4" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+            <include layout="@layout/layout_halaman_curl_4"/>
+        </com.mykodetutorial.curlviewpagerui.HalamanCurlFrameLayout>
+        <com.mykodetutorial.curlviewpagerui.HalamanCurlFrameLayout android:id="@+id/id_halaman_curl_5" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+            <include layout="@layout/layout_halaman_curl_5"/>
+        </com.mykodetutorial.curlviewpagerui.HalamanCurlFrameLayout>
+    </com.mykodetutorial.curlviewpagerui.ViewPagerCurl>
+</LinearLayout>

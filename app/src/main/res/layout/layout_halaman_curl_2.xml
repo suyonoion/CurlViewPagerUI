@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kertas"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="9dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="12dp"
+    android:paddingTop="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="Page 2"
+                android:textColor="#aaa"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/kartu"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="107dp"
+                    android:layout_weight="0.06"
+                    android:src="@drawable/sampul_mykodetutorial" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.06"
+                    android:gravity="center"
+                    android:text="MyKodeTutorial.Com adalah Tutorial Android Bahasa Indonesia Lengkap, Simple dan Mudah Dimengerti. Berisi Kumpulan Tutorial Android, OpenSource, Java, PHP dan Pemrograman Lain. " />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.06"
+                    android:autoLink="web"
+                    android:gravity="center"
+                    android:text="Kunjungi : http://www.mykodetutorial.com" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

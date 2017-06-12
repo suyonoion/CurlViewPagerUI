@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kertas"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="9dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="12dp"
+    android:paddingTop="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="Page 3"
+                android:textColor="#aaa"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/kartu"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/github_logo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alangkah baiknya kan, kalau kita mengupload project opensource kita ke GitHub dan membagikannya kepada oranglain.\n\nKita juga bisa mencari banyak di GitHub dan apa sih gan Akun Github itu ? \n\nGitHub adalah situs jejaring sosial para software developer atau programmer untuk menyimpan project - project opensource mereka dimana project tersebut bisa dikembangkan oleh programmer lain sebagai team ataupun individu. \n\nKetika kita membuat perubahan pada project kita dan di upload ulang (push) ke repository maka project yang lama masih di simpan dan tidak akan hilang, jadi akan memudahkan kita bila kita ingin melihat, menganaslisa atau mendownload versi sebelumnya." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:paddingTop="10dp"
+                    android:text="Untuk Anu lainnya kunjungin GitHub ane : \nhttps://github.com/suyonoion" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
