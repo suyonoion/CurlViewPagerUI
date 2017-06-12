@@ -114,7 +114,7 @@
                             android:layout_weight="1"
                             android:autoLink="web"
                             android:gravity="left|center"
-                            android:text=": github.com"
+                            android:text=": https://github.com/suyonoion/CurlViewPagerUI"
                             android:textStyle="italic" />
 
                     </LinearLayout>

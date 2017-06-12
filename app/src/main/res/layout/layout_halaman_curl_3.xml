@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:autoLink="web"
                     android:paddingTop="10dp"
-                    android:text="Untuk Anu lainnya kunjungin GitHub ane : \nhttps://github.com/suyonoion" />
+                    android:text="Untuk Anu lainnya kunjungin GitHub ane : \nhttps://github.com/suyonoion?tab=repositories" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
