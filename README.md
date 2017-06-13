@@ -1,6 +1,9 @@
 # CurlViewPagerUI
 
 ViewPager transisi Curl dengan menggunakan PageTransformer tanpa OpenGL yang bisa diterapkan di Expanded SystemUI
+## Preview
+
+![alt tag](https://github.com/suyonoion/CurlViewPagerUI/blob/master/demo/CurlViewPagerUI.gif)
 
 ### Kode XML
 
@@ -43,6 +46,12 @@ dan lakukan juga sampai halaman 5
 ```
 Selesai
 ```
+
+## Smali Guide :
+[CurlViewPagerUI_Guide.zip](https://github.com/suyonoion/CurlViewPagerUI/raw/master/demo/CurlViewPagerUI_Guide.zip)
+
+## Demo Sample Apk :
+[CurlViewPagerUI_demo.apk](https://github.com/suyonoion/CurlViewPagerUI/raw/master/app/CurlViewPagerUI_demo.apk)
 
 ## Authors
 
