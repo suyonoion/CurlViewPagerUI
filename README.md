@@ -66,4 +66,5 @@ This project is licensed under the [MIT License](http://opensource.org/licenses/
 * Allah SWT
 * AndroidStudio
 * GitHub
+* [klarson2](https://github.com/klarson2/PageCurlWithPageTransformer)
 * etc
